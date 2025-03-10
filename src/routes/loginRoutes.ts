@@ -4,6 +4,6 @@ import { getFaculty } from "../controllers/loginController";
 const router = express.Router();
 
 // Sub routes
-router.get("/", getFaculty);
+router.post("/", getFaculty);
 
 export default router;
