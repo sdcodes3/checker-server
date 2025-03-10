@@ -10,7 +10,7 @@ export const getPapers = async (req: Request, res: Response) => {
   }
 };
 
-export const gePaperById = async (req: Request, res: Response) => {
+export const getPaperById = async (req: Request, res: Response) => {
   try{
     const { id } = req.params;
     const question = await getPaper(id);
